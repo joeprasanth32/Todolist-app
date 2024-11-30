@@ -1,0 +1,123 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.Wrapper {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1 {
+  margin-top: 0;
+  color: #333;
+}
+
+/* Form Styles */
+.Form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Form input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.Form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #28a745;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.Form button:hover {
+  background-color: #218838;
+}
+
+/* Todo Styles */
+.Todo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.Todo.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.Todo button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.Todo .edit-btn {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.Todo .edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.Todo .delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.Todo .delete-btn:hover {
+  background-color: #c82333;
+}
+
+/* Edit Styles */
+.Edit {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.Edit input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  outline: none;
+}
+
+.Edit button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.Edit button:hover {
+  background-color: #0056b3;
+}

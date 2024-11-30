@@ -1,0 +1,35 @@
+/* Todo Component Styles */
+.Todo-list {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.Todo-list p {
+    flex: 1;
+    margin: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Todo-list p.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.Todo-list .faPenToSquare,
+.Todo-list .faTrash {
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #007bff; /* Change color for icons */
+}
+
+.Todo-list .faPenToSquare:hover,
+.Todo-list .faTrash:hover {
+    color: #0056b3; /* Change hover color for icons */
+}
